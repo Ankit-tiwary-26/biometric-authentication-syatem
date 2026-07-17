@@ -1,0 +1,20 @@
+# ── Core ──────────────────────────────
+streamlit>=1.36.0           # 1.36+ required for st.audio_input (browser mic capture)
+opencv-python-headless>=4.9.0
+mediapipe>=0.10.9
+protobuf>=4.25.3,<5         # mediapipe 0.10.x requires this exact range; 3.x and 5.x both break it
+numpy>=1.24.0
+
+# ── Voice recognition ─────────────────
+SpeechRecognition>=3.10.0   # speech-to-text (Google Web Speech – free, no key)
+librosa>=0.10.0             # MFCC voiceprint extraction + audio decoding
+scipy>=1.11.0               # audio helpers used by librosa
+
+# NOTE: sounddevice was removed. It records from whatever machine runs the
+# Python process — fine on your laptop, but on a cloud deployment that's the
+# server, not the visitor's device, so it can never work for real users.
+# Audio is now captured in-browser via st.audio_input instead.
+
+# ── MongoDB (optional) ────────────────
+pymongo>=4.6.0              # comment out if not using MongoDB
+dnspython>=2.7.0            # required for MongoDB Atlas connection
