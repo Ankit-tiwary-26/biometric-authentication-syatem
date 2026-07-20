@@ -1,0 +1,63 @@
+{
+  "Ankit Raj Tiwary": {
+    "face": "faces\\Ankit Raj Tiwary.jpg",
+    "pin_hash": "6f6a4e56098cfd9af29e3ae549503b370211a4e94421457fe4cfd39a38a1fa08",
+    "role": "viewer",
+    "dept": "CSE",
+    "created_at": "2026-05-25T19:07:32.502689",
+    "active": true,
+    "login_count": 1,
+    "last_login": "2026-05-25T19:08:29.418133"
+  },
+  "Monti": {
+    "face": "faces\\Monti.jpg",
+    "pin_hash": "6f6a4e56098cfd9af29e3ae549503b370211a4e94421457fe4cfd39a38a1fa08",
+    "role": "superadmin",
+    "dept": "Head",
+    "created_at": "2026-05-25T19:12:46.923675",
+    "active": true,
+    "login_count": 1,
+    "last_login": "2026-05-25T19:13:16.437884"
+  },
+  "D Tiwary": {
+    "face": "faces\\D Tiwary.jpg",
+    "pin_hash": "a48622b535728587fd351763d1296c7ec9cb5bc6743d5f22b011d5b5c3ef688f",
+    "role": "viewer",
+    "dept": "",
+    "created_at": "2026-05-26T15:54:36.832426",
+    "active": true,
+    "login_count": 1,
+    "last_login": "2026-05-26T15:55:28.399916"
+  },
+  "ART": {
+    "face": "faces\\ART.jpg",
+    "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "role": "viewer",
+    "dept": "12",
+    "created_at": "2026-05-31T15:44:08.156777",
+    "active": true,
+    "login_count": 0,
+    "has_voiceprint": true
+  },
+  "ARTi": {
+    "face": "faces\\ARTi.jpg",
+    "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "role": "viewer",
+    "dept": "",
+    "created_at": "2026-07-16T18:12:15.297923",
+    "active": true,
+    "login_count": 0,
+    "has_voiceprint": false
+  },
+  "amit": {
+    "face": "faces\\amit.jpg",
+    "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "role": "viewer",
+    "dept": "cse",
+    "created_at": "2026-07-17T15:18:17.646206",
+    "active": true,
+    "login_count": 1,
+    "has_voiceprint": false,
+    "last_login": "2026-07-17T15:28:03.082721"
+  }
+}
